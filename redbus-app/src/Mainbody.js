@@ -1,6 +1,5 @@
 function Mainbody(){
-    return 
-(
+    return (
     <div>
         <div>
         Indias No.1 Online Bus Ticket Booking Site
