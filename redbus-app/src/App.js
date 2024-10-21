@@ -1,5 +1,3 @@
-import './App.css';
-
 function App() {
   return (
     <>
@@ -15,31 +13,7 @@ function App() {
             <div>English</div>
             <div>Account</div>
           </div>
-
         </header>
-
-        <div>
-          <div>
-            Indias No.1 Online Bus Ticket Booking Site
-          </div>
-          <div>
-            <div>from</div>
-            <div>To</div>
-            <div>Date</div>
-            <div>Search</div>
-          </div>
-
-        </div>
-        <div>
-          Offers:
-          <div>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-          </div>
-        </div>
       </div>
     </>
   );
