@@ -1,16 +1,16 @@
 function Header(){
     return (
         <div>
-            <header className='w-screen overflow-hidden flex items-center relative p-5 border-4 font-bold text-rose-800'> 
+            <header className='w-screen overflow-x-hidden flex items-center relative p-5 border-4 font-bold text-rose-800'> 
                 <div className='flex gap-5 justify-center '>
-                    <div className='bg-slate-500'><img src='https://i.pinimg.com/736x/58/91/2b/58912b2e3ad6a279347eebb47751a9c1.jpg' 
+                    <div className='bg-slate-500'><img src='/redbus_logo.jpg' 
                                 className='h-10'alt='bus logo'></img>
                     </div>
                     <div className='text-3xl absolute left-1/4 translate-x-1/2 '>Bus Ticket Booking</div>
                 </div>
 
                 <div className='flex gap-4 ml-auto'>
-                    <div className="flex gap-1"> <img src='https://w7.pngwing.com/pngs/45/819/png-transparent-headset-computer-icons-headphones-headphones-electronics-sound-audio-equipment.png'
+                    <div className="flex gap-1"> <img src='help_img.png'
                     alt='help image' className=" h-5 w-5" /> Help </div>
                     <div className="flex gap-1"> <img src='https://w7.pngwing.com/pngs/301/114/png-transparent-message-board-online-chat-computer-icons-conversation-livechat-chat-room-chat-miscellaneous-angle-text.png'
                     alt='chat image' className=" h-5 w-5" /> English</div>

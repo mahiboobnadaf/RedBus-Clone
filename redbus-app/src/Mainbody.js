@@ -1,13 +1,10 @@
 function Mainbody(){
     return (
-        <div className="w-screen" style={{
+        <div className="w-screen overflow-x-hidden" style={{
             backgroundImage: "url('/bg_image5.jpg')",
-            // Ensures the image covers the entire div
             backgroundSize:"100% 90%",
-            // backgroundPosition: "left", // Centers the image
-            height: "100vh", // Full height for demonstration
-            width:"100vw",
-            color: "white", // Just to make the text visible
+            height: "100vh", 
+            color: "white", 
             backgroundRepeat:"no-repeat"
         }}>
         <div className="text-white text-2xl font-extrabold font-sans flex justify-center p-2">
