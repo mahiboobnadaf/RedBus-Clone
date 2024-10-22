@@ -38,7 +38,7 @@ function Location_input(){
 
                 {/* Search Button */}
                 <div className="p-2 flex w-full justify-center">
-                    <button className="bg-slate-600 text-white font-bold px-4 py-2 rounded-xl hover:bg-slate-800">
+                    <button className="bg-red-600 text-white font-bold px-4 py-2 rounded-xl hover:bg-red-800">
                         Search
                     </button>
                 </div>
