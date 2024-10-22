@@ -1,3 +1,5 @@
+import Location_input from "./Location_input";
+
 function Mainbody(){
     return (
         <div className="w-screen overflow-x-hidden" style={{
@@ -11,12 +13,8 @@ function Mainbody(){
             Indias No. 1 Online Bus Ticket Booking Site
         </div>
 
-        <div className="text-red-950 p-10">
-            <div>from</div>
-            <div>To</div>
-            <div>Date</div>
-            <div>Search</div>
-        </div>
+        
+        <Location_input />
     </div>
 )
 }
